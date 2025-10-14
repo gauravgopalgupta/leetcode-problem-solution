@@ -13,5 +13,5 @@ class Solution(object):
             ans = ans[:min_len]
             while (min_len >= 0) and (ans != strs[i][:min_len]):
                 min_len -= 1
-                ans = ans[:min_len]        
+                ans = ans[:min_len]
         return ans
